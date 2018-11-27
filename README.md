@@ -52,5 +52,5 @@ cd ../visualize
 python forward_kinematics.py $fileNameToVisualize
 ```
 
-![](https://github.com/siddsax/Motion_Prediction/smoke.gif)
+![](https://github.com/siddsax/Motion_Prediction/blob/master/smoke.gif)
 
