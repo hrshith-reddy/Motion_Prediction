@@ -108,6 +108,8 @@ def loadmultipleDRA(path1,path2,swap_edgernn,swap_edgernn2,swap_nodernn,swap_nod
 
 def loadModel(path):
     model = cPickle.load(open(path))
+    
+   
     model_class = eval(model['model'])  #getattr(models, model['model'])
 
     edgeRNNs = {}
